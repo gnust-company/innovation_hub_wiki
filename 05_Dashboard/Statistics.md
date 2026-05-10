@@ -28,6 +28,8 @@ updated: 2026-04-28
 ## API Endpoints
 - `GET /api/v1/dashboard/stats` — Tổng stats
 - `GET /api/v1/dashboard/top-contributors` — Leaderboard
+- `GET /api/v1/dashboard/recent-problems` — Problems gần đây
+- `GET /api/v1/dashboard/recent-ideas` — Ideas nổi bật gần đây
 - `GET /api/v1/dashboard/activity-over-time` — Chart data
 - `GET /api/v1/dashboard/problems-by-category` — Category chart
 - `GET /api/v1/dashboard/recent-activity` — Activity feed

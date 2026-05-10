@@ -32,10 +32,10 @@ Awards (giải thưởng) được tạo trong Event để trao cho các teams c
 4. Admin xem leaderboard → tạo awards → gắn teams.
 
 ## API
-- `POST /events/{id}/awards` — Tạo award
-- `POST /events/{id}/awards/{award_id}/teams` — Gắn team
-- `GET /events/{id}/awards` — List awards
-- Xem [[07_API_Reference/Event_Endpoints]].
+- `POST /api/v1/events/{id}/awards` — Tạo award
+- `POST /api/v1/events/{id}/awards/{award_id}/teams` — Gắn team
+- `GET /api/v1/events/{id}/awards` — List awards
+- Xem [[API_Reference/Event_Endpoints]].
 
 ## Mối liên hệ
 - [[03_Events/Scoring_System]] — Scores xác định winners.

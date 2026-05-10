@@ -36,10 +36,10 @@ updated: 2026-04-28
 - Chỉ khi event đang active. Xem [[03_Events/Event_Lifecycle]].
 
 ## API
-- `POST /events/{id}/ideas` — Manual submit
-- `POST /events/{id}/ideas/from-room` — Import from room
-- `PATCH /events/{id}/ideas/{idea_id}` — Update idea
-- Xem [[07_API_Reference/Event_Endpoints]].
+- `POST /api/v1/events/{id}/ideas` — Manual submit
+- `POST /api/v1/events/{id}/ideas/from-room` — Import from room
+- `PATCH /api/v1/events/{id}/ideas/{idea_id}` — Update idea
+- Xem [[API_Reference/Event_Endpoints]].
 
 ## Mối liên hệ
 - [[03_Events/MOC_Events]] — Tổng quan Events.

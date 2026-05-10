@@ -9,8 +9,8 @@ updated: 2026-04-28
 # Tạo Problem
 
 ## Điều kiện tiên quyết
-- Người dùng phải đăng nhập (JWT valid). Xem [[04_Authentication/JWT_Flow]].
-- Role: `member`, `team_lead`, hoặc `admin`. Xem [[04_Authentication/User_Roles]].
+- Người dùng phải đăng nhập (JWT valid). Xem [[Authentication/JWT_Flow]].
+- Role: `member`, `team_lead`, hoặc `admin`. Xem [[Authentication/User_Roles]].
 
 ## Các bước thực hiện
 1. Vào trang **Problem Feed** (route `/problems`).
@@ -29,7 +29,7 @@ updated: 2026-04-28
 - Status tự động chuyển theo tương tác: xem [[01_Problem_Feed/Problem_Status_Workflow]].
 
 ## API liên quan
-- `POST /api/v1/problems` — Xem chi tiết: [[07_API_Reference/Problem_Endpoints]]
+- `POST /api/v1/problems` — Xem chi tiết: [[API_Reference/Problem_Endpoints]]
 - Body: `{ title, summary?, content, category, visibility?, shared_user_ids? }`
 
 ## Mối liên hệ

@@ -3,7 +3,7 @@ type: atomic-note
 category: Idea Lab
 related: ["Kanban_Board", "MOC_Idea_Lab", "Problem_Status_Workflow"]
 tags: [feature, workflow]
-updated: 2026-04-28
+updated: 2026-05-10
 ---
 
 # Idea Status Workflow
@@ -35,13 +35,13 @@ Ba trạng thái này có thể chuyển qua lại tự do bằng drag-drop trê
 draft ↔ refining ↔ reviewing
   ↓         ↓          ↓
 submitted  submitted  submitted
-  ↓         ↓          ↓
+
 closed     closed     closed
 ```
 
 ## API
 - `PATCH /api/v1/ideas/{id}` — Thay đổi status qua field `status`.
-- Xem [[07_API_Reference/Idea_Endpoints]].
+- Xem [[API_Reference/Idea_Endpoints]].
 
 ## Mối liên hệ
 - [[02_Idea_Lab/Kanban_Board]] — Drag-drop để chuyển status.

@@ -14,7 +14,7 @@ Events là tính năng overlay cho chạy các cuộc thi đổi mới sáng t�
 - [[03_Events/Event_Lifecycle]] — draft → active → closed
 - [[03_Events/Team_Formation]] — Tạo đội, join, approve/reject
 - [[03_Events/Event_Idea_Submission]] — Nộp idea (manual hoặc từ Room)
-- [[03_Events/Scoring_System]] — Chấm điểm 8 criteria, 100 points max
+- [[03_Events/Scoring_System]] — Chấm điểm 8 criteria, dynamic max
 - [[03_Events/FAQ_Events]] — Quản lý FAQ cho event
 
 ## Awards
@@ -33,4 +33,4 @@ Events là tính năng overlay cho chạy các cuộc thi đổi mới sáng t�
 - Scoring dùng circular review giữa các teams
 
 ## API
-- Xem tất cả event endpoints: [[07_API_Reference/Event_Endpoints]]
+- Xem tất cả event endpoints: [[API_Reference/Event_Endpoints]]

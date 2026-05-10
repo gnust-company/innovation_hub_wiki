@@ -36,9 +36,9 @@ Event có 2 cách hiển thị giới thiệu (XOR):
 - `POST /api/v1/events` — Tạo event (admin)
 - `PATCH /api/v1/events/{id}` — Update event (admin)
 - `PATCH /api/v1/events/{id}/close` — Close event (admin)
-- Xem [[07_API_Reference/Event_Endpoints]].
+- Xem [[API_Reference/Event_Endpoints]].
 
 ## Mối liên hệ
 - [[03_Events/Team_Formation]] — Teams chỉ hoạt động khi event active.
 - [[03_Events/Event_Idea_Submission]] — Submit ideas khi event active.
-- [[04_Authentication/User_Roles]] — Chỉ admin quản lý events.
+- [[Authentication/User_Roles]] — Chỉ admin quản lý events.

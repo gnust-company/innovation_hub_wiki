@@ -29,7 +29,7 @@ Dashboard hiển thị thống kê, analytics và hoạt động gần đây.
 - Toàn bộ thống kê (bypass privacy).
 - Charts: activity over time, category distribution.
 - User management (`/admin/users`).
-- Xem [[09_Admin_Guide/MOC_Admin]].
+- Xem [[Admin_Guide/MOC_Admin]].
 
 ## Mối liên hệ
 - Stats từ [[01_Problem_Feed/MOC_Problem_Feed]] reactions, comments.

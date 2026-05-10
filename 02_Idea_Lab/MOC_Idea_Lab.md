@@ -23,6 +23,6 @@ Idea Lab là không gian brainstorming — nơi tạo Rooms, đăng Ideas, và b
 - Voting và reactions đóng góp analytics: [[05_Dashboard/MOC_Dashboard]]
 
 ## Liên quan đến kỹ thuật
-- API endpoints: [[07_API_Reference/Idea_Endpoints]], [[07_API_Reference/Room_Endpoints]]
-- Privacy: [[06_Architecture/Privacy_Model]]
+- API endpoints: [[API_Reference/Idea_Endpoints]], [[API_Reference/Room_Endpoints]]
+- Privacy: [[Architecture/Privacy_Model]]
 - Reactions trên Ideas: [[01_Problem_Feed/Reactions]]

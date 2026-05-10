@@ -22,22 +22,24 @@ Obsidian Vault — Knowledge base nội bộ cho nền tảng **Innovation Hub**
 2. Nếu bạn là developer → [[00_Index/MOC_For_Developers]]
 3. Nếu bạn là end-user → [[00_Index/MOC_For_End_Users]]
 4. AI Agent đọc [[00_Index/AGENT_GUIDE]] trước
+5. Cách wiki được tổ chức → [[00_Index/Wiki_Conventions]]
 
 ## Cấu trúc vault
 
 | Folder | Nội dung |
 |--------|----------|
-| `00_Index` | Entry points, MOC tổng |
+| `00_Index` | Entry points, MOCs, conventions |
 | `01_Problem_Feed` | Tính năng Problem Feed |
 | `02_Idea_Lab` | Tính năng Idea Lab / Brainstorming |
 | `03_Events` | Tính năng Innovation Events |
-| `04_Authentication` | Xác thực & phân quyền |
+| `Authentication` | Xác thực & phân quyền |
 | `05_Dashboard` | Dashboard & Analytics |
-| `06_Architecture` | Technical docs cho developers |
-| `07_API_Reference` | API endpoint docs |
-| `08_User_Guide` | Hướng dẫn end-user |
-| `09_Admin_Guide` | Hướng dẫn admin |
-| `99_Misc` | Changelog, troubleshooting, glossary |
+| `Architecture` | Technical docs cho developers |
+| `API_Reference` | API endpoint docs |
+| `User_Guide` | Hướng dẫn end-user |
+| `Admin_Guide` | Hướng dẫn admin |
+| `06_Chat` | AI ChatBot, Agent BE integration |
+| `Misc` | Changelog, troubleshooting, glossary |
 
 ## Quy tắc Zettelkasten
 
