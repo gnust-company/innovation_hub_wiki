@@ -26,12 +26,12 @@ Mỗi Event có riêng FAQ section cho câu hỏi thường gặp, hiển thị 
 - Question và answer đều editable.
 
 ## API
-- `POST /events/{id}/faqs` — Tạo FAQ
-- `GET /events/{id}/faqs` — List FAQs (public)
-- `PATCH /events/{id}/faqs/{faq_id}` — Update
-- `DELETE /events/{id}/faqs/{faq_id}` — Delete
-- Xem [[07_API_Reference/Event_Endpoints]].
+- `POST /api/v1/events/{id}/faqs` — Tạo FAQ
+- `GET /api/v1/events/{id}/faqs` — List FAQs (public)
+- `PATCH /api/v1/events/{id}/faqs/{faq_id}` — Update
+- `DELETE /api/v1/events/{id}/faqs/{faq_id}` — Delete
+- Xem [[API_Reference/Event_Endpoints]].
 
 ## Mối liên hệ
 - [[03_Events/MOC_Events]] — Tổng quan Events.
-- [[04_Authentication/User_Roles]] — Ai được tạo FAQ.
+- [[Authentication/User_Roles]] — Ai được tạo FAQ.

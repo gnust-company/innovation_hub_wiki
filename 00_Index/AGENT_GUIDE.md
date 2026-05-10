@@ -59,27 +59,32 @@ Dùng bảng này để xác định nhanh file nào chứa thông tin cần tì
 | MOC Idea Lab | Brainstorm rooms, kanban, voting | `02_Idea_Lab/MOC_Idea_Lab.md` |
 | MOC Events | Events, teams, scoring, awards | `03_Events/MOC_Events.md` |
 | MOC Dashboard | Statistics, analytics | `05_Dashboard/MOC_Dashboard.md` |
+| MOC Chat | AI ChatBot, sessions, Agent integration | `06_Chat/MOC_Chat.md` |
 
 ### Kỹ thuật
 | MOC | Nội dung | Path |
 |-----|----------|------|
-| MOC Auth | JWT, roles, permission matrix | `04_Authentication/MOC_Auth.md` |
-| MOC Architecture | Clean architecture, DB schema, API | `06_Architecture/MOC_Architecture.md` |
-| MOC API | Full API endpoint reference | `07_API_Reference/MOC_API.md` |
-| MOC User Guide | Quick start, tìm vấn đề, tham gia event | `08_User_Guide/MOC_User_Guide.md` |
-| MOC Admin | Quản lý user, analytics dashboard | `09_Admin_Guide/MOC_Admin.md` |
+| MOC Auth | JWT, roles, permission matrix | `Authentication/MOC_Auth.md` |
+| MOC Architecture | Clean architecture, DB schema, API | `Architecture/MOC_Architecture.md` |
+| MOC API | Full API endpoint reference | `API_Reference/MOC_API.md` |
+| MOC User Guide | Quick start, tìm vấn đề, tham gia event | `User_Guide/MOC_User_Guide.md` |
+| MOC Admin | Quản lý user, analytics dashboard | `Admin_Guide/MOC_Admin.md` |
 
 ### Mẹo tìm kiếm nhanh
 - **Câu hỏi về tính năng người dùng** → Đọc `MOC_For_End_Users`, rồi follow links
 - **Câu hỏi về API/code** → Đọc `MOC_API` hoặc `MOC_Architecture`
 - **Câu hỏi về event/competition** → Đọc `MOC_Events`
+- **Câu hỏi về tiêu chí chấm điểm (scoring)** → Đọc `03_Events/Scoring_System` (8 criteria: Unresolved Problem, Root Cause Analysis, Problem Recognition, Gap Evidence, Novelty, Root Cause Resolution, Competitive Advantage, Technical Feasibility)
 - **Câu hỏi về phân quyền** → Đọc `MOC_Auth` → `Permission_Matrix`
 - **Câu hỏi về vấn đề/ý tưởng** → Đọc `MOC_Problem_Feed` hoặc `MOC_Idea_Lab`
+- **Câu hỏi về biến môi trường / cấu hình** → Đọc `Architecture/Environment_Variables`
+- **Câu hỏi về frontend / React** → Đọc `Architecture/Frontend_Architecture`
 
 ## Thông tin nền tảng
 Innovation Hub là nền tảng nội bộ quản lý đổi mới sáng tạo.
 - **Tech stack**: React + FastAPI + PostgreSQL + MinIO
 - **Roles**: member, admin (team_lead là event-specific)
-- **Core flows**: Problem Feed → Idea Lab → Events
+- **Core flows**: Problem Feed → Idea Lab → Events → ChatBot
+- **Chat**: Multi-session AI chat with wiki-grounded answers via Agent BE
 - **Privacy**: Public/Private + shared users
 - **Rich text**: TipTap editor, JSONB storage

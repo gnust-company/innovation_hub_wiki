@@ -30,9 +30,9 @@ Hệ thống bình chọn sao (1-5) cho Ideas trong Room.
 ## API
 - `POST /api/v1/ideas/{id}/votes` — Vote (body: `{ "stars": 1-5 }`)
 - `DELETE /api/v1/ideas/{id}/votes` — Xóa vote
-- Xem [[07_API_Reference/Idea_Endpoints]].
+- Xem [[API_Reference/Idea_Endpoints]].
 
 ## Mối liên hệ
 - [[02_Idea_Lab/Kanban_Board]] — Vote hiển thị trên idea cards.
-- [[06_Architecture/Notification_System]] — Vote trigger notification cho tác giả idea.
+- [[Architecture/Notification_System]] — Vote trigger notification cho tác giả idea.
 - [[05_Dashboard/MOC_Dashboard]] — Average stars dùng cho analytics.

@@ -35,9 +35,9 @@ Comment có thể gắn vào 3 loại target:
 ## API
 - `POST /api/v1/comments` — Tạo comment/reply
 - `GET /api/v1/comments?target_id=X&target_type=problem` — List comments
-- Xem thêm: [[07_API_Reference/Comment_Endpoints]]
+- Xem thêm: [[API_Reference/Comment_Endpoints]]
 
 ## Mối liên hệ
-- Comment trigger [[06_Architecture/Notification_System]] cho tác giả target và những người đã tương tác.
+- Comment trigger [[Architecture/Notification_System]] cho tác giả target và những người đã tương tác.
 - Comment trên Problem tự động chuyển status sang "discussing": [[01_Problem_Feed/Problem_Status_Workflow]].
 - Kết hợp với [[01_Problem_Feed/Reactions]] để tương tác đa dạng.

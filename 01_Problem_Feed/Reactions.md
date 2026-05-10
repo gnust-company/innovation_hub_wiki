@@ -32,9 +32,9 @@ Reaction cho phép người dùng bày tỏ cảm xúc về Problem hoặc Idea 
 - `POST /api/v1/problems/{id}/reactions` — Toggle reaction trên problem
 - `POST /api/v1/ideas/{id}/reactions` — Toggle reaction trên idea
 - `DELETE /api/v1/problems/{id}/reactions` — Xóa reaction
-- Xem [[07_API_Reference/Problem_Endpoints]], [[07_API_Reference/Idea_Endpoints]].
+- Xem [[API_Reference/Problem_Endpoints]], [[API_Reference/Idea_Endpoints]].
 
 ## Mối liên hệ
-- Reaction trigger [[06_Architecture/Notification_System]] cho tác giả.
+- Reaction trigger [[Architecture/Notification_System]] cho tác giả.
 - Reaction counts dùng trong [[05_Dashboard/MOC_Dashboard]] analytics.
 - Kết hợp với [[01_Problem_Feed/Comment_Threading]] cho tương tác đầy đủ.

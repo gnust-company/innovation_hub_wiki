@@ -9,7 +9,7 @@ updated: 2026-04-28
 # Tạo Brainstorm Room
 
 ## Điều kiện tiên quyết
-- Đã đăng nhập. Xem [[04_Authentication/JWT_Flow]].
+- Đã đăng nhập. Xem [[Authentication/JWT_Flow]].
 - Role: `member`, `admin`.
 
 ## Hai cách tạo Room
@@ -29,7 +29,7 @@ updated: 2026-04-28
 ## Privacy Room
 - Room có privacy **độc lập** với Problem liên quan.
 - Room public có thể link với Problem private, và ngược lại.
-- Xem [[01_Problem_Feed/Problem_Privacy]] và [[06_Architecture/Privacy_Model]].
+- Xem [[01_Problem_Feed/Problem_Privacy]] và [[Architecture/Privacy_Model]].
 
 ## Sau khi tạo
 - Room xuất hiện trong Idea Lab.
@@ -39,7 +39,7 @@ updated: 2026-04-28
 ## API
 - `POST /api/v1/rooms` — Tạo room độc lập
 - `POST /api/v1/problems/{id}/rooms` — Tạo room từ problem
-- Xem [[07_API_Reference/Room_Endpoints]].
+- Xem [[API_Reference/Room_Endpoints]].
 
 ## Mối liên hệ
 - [[02_Idea_Lab/Room_vs_Problem_Link]] — Chi tiết mối liên hệ Room-Problem.

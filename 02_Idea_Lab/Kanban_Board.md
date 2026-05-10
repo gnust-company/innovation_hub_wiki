@@ -37,7 +37,7 @@ Kanban Board là view chính trong Room, hiển thị ideas theo status với **
 ## API
 - `POST /api/v1/ideas` — Tạo idea
 - `PATCH /api/v1/ideas/{id}` — Cập nhật status (drag-drop)
-- Xem [[07_API_Reference/Idea_Endpoints]].
+- Xem [[API_Reference/Idea_Endpoints]].
 
 ## Mối liên hệ
 - [[02_Idea_Lab/Idea_Status_Workflow]] — Chi tiết chuyển trạng thái.

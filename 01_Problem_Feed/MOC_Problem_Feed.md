@@ -23,6 +23,6 @@ Problem Feed là "newsfeed" của những điểm nghẽn trong bộ phận. Nơ
 - Problem có thể là nguồn gốc cho Event Idea qua [[03_Events/Event_Idea_Submission]]
 
 ## Liên quan đến kỹ thuật
-- Xem API: [[07_API_Reference/Problem_Endpoints]]
-- Privacy model: [[06_Architecture/Privacy_Model]]
+- Xem API: [[API_Reference/Problem_Endpoints]]
+- Privacy model: [[Architecture/Privacy_Model]]
 - Tìm hiểu cách Comment hoạt động: [[01_Problem_Feed/Comment_Threading]]
