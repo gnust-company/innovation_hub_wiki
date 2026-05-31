@@ -13,7 +13,6 @@ Dành cho thành viên, team lead, và admin sử dụng nền tảng.
 ## Đăng nhập & Tài khoản
 - [[User_Guide/Quick_Start]] — Đăng nhập lần đầu, cấu hình profile
 - [[User_Guide/Change_Password]] — Thay đổi mật khẩu
-- [[Authentication/User_Roles]] — Tôi là role gì? Quyền hạn ra sao?
 
 ## Tính năng chính
 - [[01_Problem_Feed/MOC_Problem_Feed]] — Đăng vấn đề, thảo luận, theo dõi
@@ -25,7 +24,6 @@ Dành cho thành viên, team lead, và admin sử dụng nền tảng.
 ## Hướng dẫn theo vai trò
 - **Thành viên**: [[01_Problem_Feed/Create_Problem]], [[User_Guide/Find_Problem]], [[User_Guide/Participate_Event]]
 - **Team Lead**: [[03_Events/Team_Formation]], [[03_Events/Scoring_System]]
-- **Admin**: [[Admin_Guide/MOC_Admin]]
 
 ## Cần trợ giúp?
 - [[Misc/Troubleshooting]] — Các lỗi thường gặp

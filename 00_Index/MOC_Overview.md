@@ -26,18 +26,10 @@ Innovation Hub là nền tảng nội bộ quản lý đổi mới sáng tạo, 
 - [[05_Dashboard/MOC_Dashboard]] — Statistics, analytics, tracking
 - [[06_Chat/MOC_Chat]] — AI ChatBot, multi-session chat, wiki-grounded answers
 
-### Kỹ thuật
-- [[Authentication/MOC_Auth]] — JWT authentication, user roles, permissions
-- [[Architecture/MOC_Architecture]] — Clean architecture, database schema
-- [[API_Reference/MOC_API]] — Full API endpoint reference
-
 ### Hướng dẫn
 - [[00_Index/MOC_For_End_Users]] — Hướng dẫn sử dụng cho người dùng
 - [[00_Index/MOC_For_Developers]] — Technical docs cho dev
-- [[Admin_Guide/MOC_Admin]] — Hướng dẫn cho admin
 
 ## Khái niệm cốt lõi
-- [[Authentication/User_Roles]] — Phân quyền: member, admin, team_lead
 - [[01_Problem_Feed/Problem_Status_Workflow]] — open → discussing → brainstorming → solved/closed
 - [[02_Idea_Lab/Idea_Status_Workflow]] — draft ↔ refining ↔ reviewing → submitted/closed
-- [[Architecture/Privacy_Model]] — Public/Private với shared users
